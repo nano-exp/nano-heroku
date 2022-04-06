@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+.container {
+    width: 100%;
+}
+
+.bg-gray-300 {
+    background-color: rgba(209, 213, 219, 1);
+}
+
+.hover\:bg-white:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.hover\:border-blue-400:hover {
+    border-color: rgba(96, 165, 250, 1);
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.border {
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+
+.flex {
+    display: flex;
+}
+
+.table {
+    display: table;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.h-56 {
+    height: 14rem;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.max-w-full {
+    max-width: 100%;
+}
+
+.p-2 {
+    padding: 0.5rem;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.py-1 {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.relative {
+    position: relative;
+}
+
+.bottom-20 {
+    bottom: 5rem;
+}
+
+.text-white {
+    color: rgba(255, 255, 255, 1);
+}
+
+.w-screen {
+    width: 100vw;
+}
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.mt-4 {
+    margin-top: 1rem
+}

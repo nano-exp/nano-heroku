@@ -1,0 +1,38 @@
+nano:
+  nano-api: https://nanometer.herokuapp.com/
+  nano-api-key: key
+  baidu-translation-app-id:
+  baidu-translation-secret-key:
+  bots:
+    nano:
+      name: nano
+      username: nano_telegram_bot
+      token: token
+    nano-000:
+      name: nano-000
+      username: nano_000_bot
+      token: token
+    nano-026:
+      name: nano-026
+      username: nano_026_bot
+      token: token
+    nano-063:
+      name: nano-063
+      username: nano_063_bot
+      token: token
+    nano-100:
+      name: nano-100
+      username: nano_100_bot
+      token: token
+    nano-233:
+      name: nano-233
+      username: nano_233_bot
+      token: token
+    nano-262:
+      name: nano-262
+      username: nano_262_bot
+      token: token
+    nano-cat:
+      name: nano-cat
+      username: nano_cat_bot
+      token: token

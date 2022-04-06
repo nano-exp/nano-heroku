@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../../styles/global.css">
+    <title>Postgres</title>
+</head>
+<body>
+<div id="app"></div>
+<script type="module">
+    import { createElement } from 'react'
+    import { createRoot } from 'react-dom/client'
+    import Postgres from './Postgres.jsx'
+
+    createRoot(document.querySelector('#app')).render(createElement(Postgres))
+</script>
+
+</body>
+</html>

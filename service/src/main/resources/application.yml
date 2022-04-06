@@ -1,0 +1,32 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+spring:
+  application:
+    name: nano-service
+  profiles:
+    include: nano
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 200MB
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: ${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/postgres}
+    username: ${JDBC_DATABASE_USERNAME:postgres}
+    password: ${JDBC_DATABASE_PASSWORD:password}
+    hikari:
+      maximum-pool-size: 8
+  sql:
+    init:
+      mode: never
+  rabbitmq:
+    addresses: ${CLOUDAMQP_URL:}
+  mail:
+    username:
+    password:
+    host: smtp.office365.com
+    port: 587
+    properties:
+      mail.smtp.starttls.enable: true
