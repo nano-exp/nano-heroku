@@ -5,7 +5,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "nano-api"
+rootProject.name = "nano-heroku"
 include(
     "algorithm",
     "common",

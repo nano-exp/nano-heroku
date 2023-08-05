@@ -61,8 +61,8 @@ public class ServiceApplication implements ApplicationContextAware, WebMvcConfig
     @Bean
     public AppConfig appConfig(@Qualifier("configVars") Map<String, ?> configVars) {
         var appConfig = AppConfig.builder()
-                .nanoApi(configVars.get("nano-api").toString())
-                .nanoApiKey(configVars.get("nano-api-key").toString())
+                .nanoApi(configVars.get("nano-heroku").toString())
+                .nanoApiKey(configVars.get("nano-heroku-key").toString())
                 .baiduTranslationAppId(configVars.get("baidu-translation-app-id").toString())
                 .baiduTranslationSecretKey(configVars.get("baidu-translation-secret-key").toString())
                 .bots(new HashMap<>())

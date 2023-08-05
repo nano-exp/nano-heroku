@@ -1,5 +1,5 @@
 {
-  "name": "nano-api",
+  "name": "nano-heroku",
   "version": "1.0.0",
   "description": "nano",
   "scripts": {
@@ -14,16 +14,16 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nano-exp/nano-api.git"
+    "url": "git+https://github.com/nano-exp/nano-heroku.git"
   },
   "type": "module",
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nano-exp/nano-api/issues"
+    "url": "https://github.com/nano-exp/nano-heroku/issues"
   },
-  "homepage": "https://github.com/nano-exp/nano-api#readme",
+  "homepage": "https://github.com/nano-exp/nano-heroku#readme",
   "devDependencies": {
     "@vitejs/plugin-react": "^1.3.2",
     "vite": "^2.9.9"
