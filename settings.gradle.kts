@@ -5,7 +5,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "nanometer"
+rootProject.name = "nano-api"
 include(
     "algorithm",
     "common",

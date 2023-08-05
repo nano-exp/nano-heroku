@@ -1,3 +1,1 @@
-# nanometer
-
-- https://nanometer.herokuapp.com
+# nano-api
